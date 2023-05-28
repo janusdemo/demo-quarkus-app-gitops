@@ -1,0 +1,15 @@
+app:
+  name: demo-quarkus-app
+  namespace: demo-quarkus-app-dev
+  cluster: .apps.cluster-88t78.88t78.sandbox2868.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/janusdemo/demo-quarkus-app
+  org: janusdemo
+  name: demo-quarkus-app
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: demo-quarkus-app
+  tag: latest
